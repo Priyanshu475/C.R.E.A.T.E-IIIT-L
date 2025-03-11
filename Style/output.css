@@ -5140,7 +5140,7 @@ footer {
 
 .outer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
 }
@@ -5182,7 +5182,7 @@ footer{
 }
 .footer-img {
   height: 50px;
-  margin: 10px;
+  margin: 5px;
 }
 
 footer a:hover {
