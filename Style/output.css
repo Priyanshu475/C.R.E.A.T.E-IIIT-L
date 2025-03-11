@@ -5150,7 +5150,8 @@ footer {
   margin: 5px;
 }
 .inner-div img {
-  width: max-content;
+  width: 250px;
+  height: 100px;
 }
 
 footer{
@@ -5175,7 +5176,8 @@ footer{
   .inner-div:nth-child(1),
   .inner-div:nth-child(2),
   .inner-div:nth-child(3) {
-    width: auto;
+     height: 30px;
+     width: 30px;
   }
 }
 .footer-img {
