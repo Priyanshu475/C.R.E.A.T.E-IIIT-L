@@ -368,4 +368,19 @@ body.loaded .navbar {
   .certificate-preview {
     margin-top: 40px;
   }
+
+  header .burger {
+    display: block;
+    color: var(--secondary);
+    position: absolute;
+    right: 1rem;
+  }
+
+  header .close-menu-icon {
+    display: block;
+    color: var(--secondary);
+    position: absolute;
+    right: 16rem;
+  }
+  
 }
