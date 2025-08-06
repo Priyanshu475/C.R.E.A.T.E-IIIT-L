@@ -4242,6 +4242,10 @@ p {
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.marquee{
+  background-color: #005f99;
+}
+
 .section-heading {
   color: #484647;
   font-size: 3vw;
