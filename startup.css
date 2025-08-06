@@ -1,0 +1,35 @@
+.logo-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    transition: all 1.5s ease-in-out;
+  }
+  
+  .logo {
+    width: 1500px;
+    height: auto;
+    transition: all 1.5s ease-in-out;
+  }
+  
+  body.loaded .logo-container {
+    top: 20px;
+    left: 20px;
+    transform: translate(0, 0);
+  }
+  
+  body.loaded .logo {
+    width: 60px;
+  }
+  
+  /* Content hidden initially */
+  .content {
+    opacity: 0;
+    padding: 100px 20px 20px 20px;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  body.loaded .content {
+    opacity: 1;
+  }
