@@ -4251,6 +4251,21 @@ p {
   text-decoration: none;
   color: white;
 }
+.new-badge {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-right: 8px;
+  font-weight: bold;
+  animation: flash 0.5s infinite alternate;
+}
+
+@keyframes flash {
+  50% { background-color: green; color: white;}
+  100% { background-color: yellow; color: #000; }
+}
 
 .section-heading {
   color: #484647;
