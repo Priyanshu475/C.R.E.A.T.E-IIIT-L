@@ -420,7 +420,7 @@ body.loaded .navbar {
   .content-heading{
     color: #e85b24;
     font-size: 4vw;
-    margin: 20px;
+    margin-top: 70px;
     font-weight: 900;
     font-family:Verdana, Geneva, Tahoma, sans-serif
   }
@@ -429,7 +429,7 @@ body.loaded .navbar {
     background-color: #e85b24;   /* orange shade */
     color: white;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 15px 20px;
     border-radius: 20px;
     text-align: center;
@@ -438,8 +438,8 @@ body.loaded .navbar {
   }
   
   .logos{
-    margin: 0px;
-    width: 20px;
+    margin: 10px;
+    width: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
