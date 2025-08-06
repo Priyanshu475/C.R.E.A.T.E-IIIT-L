@@ -195,6 +195,7 @@ body.loaded .navbar {
   align-items: center;
   color: red;
   font-weight: bold;
+  font-weight: 900;
 }
 
 .book-btn {
@@ -321,6 +322,10 @@ body.loaded .navbar {
     
     .step {
       max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     
     .step img {
@@ -419,7 +424,7 @@ body.loaded .navbar {
 
   .content-heading{
     color: #e85b24;
-    font-size: 4vw;
+    font-size: 6vw;
     margin-top: 70px;
     font-weight: 900;
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -446,4 +451,29 @@ body.loaded .navbar {
     align-items: center;
   }
   
+  .expect-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+
+  .workshop-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 60px 0px; 
+    margin: 0 auto;
+    align-items:center;
+  }
+  .journey-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+    position: relative;
+  }
 }
