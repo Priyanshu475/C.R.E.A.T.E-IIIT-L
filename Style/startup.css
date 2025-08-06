@@ -369,18 +369,52 @@ body.loaded .navbar {
     margin-top: 40px;
   }
 
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   header .burger {
     display: block;
-    color: var(--secondary);
+    color: white;
     position: absolute;
     right: 1rem;
   }
 
+  #menu-icon {
+    color: white;
+  }
+
   header .close-menu-icon {
     display: block;
-    color: var(--secondary);
+    color: white;
     position: absolute;
     right: 16rem;
   }
+
+  .logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 1.5s ease-in-out;
+    width: 400px;
+    height: auto;
+  }
   
+  /* Grow logo to scale(2) */
+  body.grow .logo {
+    transform: translate(-50%, -80%) scale(1.2);
+  }
+  
+  /* Move to top center with spacing and shrink */
+  body.loaded .logo {
+    position: absolute;
+    top: 100px; /* spacing from top (adjust as needed) */
+    left: 50%;
+    transform: translateX(-50%) scale(1);
+    width: 200px;
+    margin-bottom: 40px; /* spacing below the logo */
+  }  
+
 }

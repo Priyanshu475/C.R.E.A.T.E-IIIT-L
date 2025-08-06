@@ -21,35 +21,46 @@
   </script>
 
 <body>
-    <div class="navbar"> 
-        <img src="../static/C.R.E.A.T.E  FINAL ICON.svg" alt="Logo" class="clg-logo" />
-        <ul class="menu" id="menu">
-            <li class="menu-item">
-              <a href="/index.html#About">About Us</a>
-            </li>
-            <li class="menu-item">
-              <a href="index.html#Objective">Mission </a>
-            </li>
-            <li class="menu-item">
-              <a href="index.html#Gallery">Gallery</a>
-            </li>
-            <li class="menu-item">
-              <a href="index.html#Mentor">Mentors </a>
-            </li>
-            <li class="menu-item">
-              <a href="index.html#Startups">Startups </a>
-            </li>
-            <li class="menu-item">
-              <a href="index.html#Team">Team </a>
-            </li>
-            <li class="menu-item">
-              <a href="index.html#Contact">Contact Us</a>
-            </li>
-          </ul>
-          <div class="burger" id="burger" onclick="toggleMobile()">
-            <i class="fas fa-bars" id="menu-icon"></i>
+    <div class="navbar">
+        <header>
+          <div class="navbar">
+            <a href="./index.html" class="brand">
+              <img
+                src="../static/C.R.E.A.T.E  FINAL ICON.svg"
+                alt=""
+                class="navbar-img"
+              />
+            </a>
+            <ul class="menu" id="menu">
+              <li class="menu-item">
+                <a href="#About">About Us</a>
+              </li>
+              <li class="menu-item">
+                <a href="#Objective">Mission </a>
+              </li>
+              <li class="menu-item">
+                <a href="#Gallery">Gallery</a>
+              </li>
+              <li class="menu-item">
+                <a href="#Mentor">Mentors </a>
+              </li>
+              <li class="menu-item">
+                <a href="#Startups">Startups </a>
+              </li>
+              <li class="menu-item">
+                <a href="#Team">Team </a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact">Contact Us</a>
+              </li>
+            </ul>
+  
+            <div class="burger" id="burger" onclick="toggleMobile()">
+              <i class="fas fa-bars" id="menu-icon"></i>
+            </div>
           </div>
-    </div>
+        </header>
+      </div>
         <div class="logo-container">
             <img src="../static/startup.png" alt="Logo" class="logo" />
         </div>
@@ -176,10 +187,6 @@
                   </section>
                   
             </div>
-
-            <div class="burger" id="burger" onclick="toggleMobile()">
-            <i class="fas fa-bars" id="menu-icon"></i>
-          </div>
 
           <script>
             const toggleMobile = () => {
