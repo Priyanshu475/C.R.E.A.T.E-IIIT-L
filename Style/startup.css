@@ -410,11 +410,39 @@ body.loaded .navbar {
   /* Move to top center with spacing and shrink */
   body.loaded .logo {
     position: absolute;
-    top: 100px; /* spacing from top (adjust as needed) */
+    top: 20px; /* spacing from top (adjust as needed) */
     left: 50%;
     transform: translateX(-50%) scale(1);
-    width: 200px;
+    width: 400px;
     margin-bottom: 40px; /* spacing below the logo */
   }  
 
+  .content-heading{
+    color: #e85b24;
+    font-size: 8vw;
+    margin: 20px;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .date {
+    background-color: #e85b24;   /* orange shade */
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+  }
+  
+  .logos{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
