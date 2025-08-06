@@ -45,6 +45,9 @@
               <a href="index.html#Contact">Contact Us</a>
             </li>
           </ul>
+          <div class="burger" id="burger" onclick="toggleMobile()">
+            <i class="fas fa-bars" id="menu-icon"></i>
+          </div>
     </div>
         <div class="logo-container">
             <img src="../static/startup.png" alt="Logo" class="logo" />
@@ -172,5 +175,47 @@
                   </section>
                   
             </div>
+
+            <div class="burger" id="burger" onclick="toggleMobile()">
+            <i class="fas fa-bars" id="menu-icon"></i>
+          </div>
+
+          <script>
+            const toggleMobile = () => {
+              let menu = document.getElementById("menu");
+              let menuIcon = document.getElementById("menu-icon");
+      
+              if (menuIcon.classList.contains("fa-bars")) {
+                menuIcon.classList.remove("fa-bars");
+                menuIcon.classList.add("fa-times");
+                menu.classList.add("mobile-menu");
+              } else {
+                menuIcon.classList.remove("fa-times");
+                menuIcon.classList.add("fa-bars");
+                menu.classList.remove("mobile-menu");
+              }
+            };
+      
+            // Smooth scrolling function
+            const scrollToSection = (targetId) => {
+              const targetSection = document.getElementById(targetId);
+              if (targetSection) {
+                window.scrollTo({
+                  top: targetSection.offsetTop,
+                  behavior: "smooth",
+                });
+              }
+            };
+      
+            // Add event listeners to navbar links
+            const navbarLinks = document.querySelectorAll(".menu-item a");
+            navbarLinks.forEach((link) => {
+              link.addEventListener("click", (event) => {
+                event.preventDefault();
+                const targetId = link.getAttribute("href").substring(1); // Remove the leading #
+                scrollToSection(targetId);
+              });
+            });
+          </script>
 </body>
 </html>
