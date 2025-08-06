@@ -4243,7 +4243,13 @@ p {
 }
 
 .marquee{
-  background-color: #005f99;
+  background: #0c092d;
+  padding: 10px;
+} 
+
+.marquee a{
+  text-decoration: none;
+  color: white;
 }
 
 .section-heading {
