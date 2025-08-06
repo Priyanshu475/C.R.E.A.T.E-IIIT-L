@@ -410,7 +410,7 @@ body.loaded .navbar {
   /* Move to top center with spacing and shrink */
   body.loaded .logo {
     position: absolute;
-    top: 20px; /* spacing from top (adjust as needed) */
+    top: 50px; /* spacing from top (adjust as needed) */
     left: 50%;
     transform: translateX(-50%) scale(1);
     width: 400px;
@@ -419,7 +419,7 @@ body.loaded .navbar {
 
   .content-heading{
     color: #e85b24;
-    font-size: 8vw;
+    font-size: 4vw;
     margin: 20px;
     font-weight: 900;
     font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -438,7 +438,8 @@ body.loaded .navbar {
   }
   
   .logos{
-    margin: 20px;
+    margin: 0px;
+    width: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
