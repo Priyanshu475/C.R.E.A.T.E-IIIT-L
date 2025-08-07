@@ -69,7 +69,15 @@ body, html {
 
 .content-heading h1{
   color: #e85b24;
-  font-size: 4vw;
+  font-size: 2vw;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.content-heading {
+  color: #e85b24;
+  font-size: 1vw;
   margin-bottom: 20px;
   font-weight: 900;
   font-family:Verdana, Geneva, Tahoma, sans-serif
