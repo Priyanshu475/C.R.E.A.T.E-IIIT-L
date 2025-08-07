@@ -69,6 +69,7 @@ body, html {
 
 .content-heading h1{
   font-size: 4vw;
+  color: #0c092d;
 }
 
 .content-heading h2{
@@ -80,8 +81,9 @@ body, html {
 }
 
 .content-heading i{
-  font-size: 2vw;
+  font-size: 1.2vw;
   font-weight: 400;
+  color: #0c092d;
 }
 
 .content-heading {
