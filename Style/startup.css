@@ -55,9 +55,9 @@ body, html {
 
 .content{
   padding-top: 15%;
-  padding-left: 20%;
-  padding-right: 20%;
-  margin-top: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
