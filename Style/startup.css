@@ -54,7 +54,7 @@ body, html {
 }
 
 .content{
-  padding-top: 15%;
+  padding-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
   margin-top: 20px;
@@ -72,16 +72,16 @@ body, html {
 }
 
 .content-heading h2{
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .content-heading h3{
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .content-heading i{
   font-size: 2vw;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .content-heading {
