@@ -139,6 +139,13 @@ body, html {
   margin-bottom: 40px;
 }
 
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .card {
   background-color: #fff;
   color: #000;
@@ -364,6 +371,13 @@ body, html {
   #menu-icon {
     color: white;
   }
+
+  .details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
   header .close-menu-icon {
     display: block;
