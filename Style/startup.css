@@ -423,7 +423,7 @@ body.loaded .navbar {
   }  
 
   .content{
-    padding: 100%;
+    /* padding: 100%; */
   }
 
   .content-heading{
