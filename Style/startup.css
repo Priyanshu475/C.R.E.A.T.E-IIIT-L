@@ -75,7 +75,7 @@ body, html {
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.content-heading {
+.content-heading i{
   color: #e85b24;
   font-size: 2vw;
   margin-bottom: 20px;
