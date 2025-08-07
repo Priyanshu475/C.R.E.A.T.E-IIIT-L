@@ -453,7 +453,7 @@ body, html {
   
   .logos{
     margin: 10px;
-    width: 60px;
+    width: 30px;
     padding-top: 15%;
     display: flex;
     flex-direction: row;
