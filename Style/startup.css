@@ -375,20 +375,20 @@ body, html {
 }
 
 .content-heading h1{
-  font-size: 4vw;
+  font-size: 5vw;
   color: #0c092d;
 }
 
 .content-heading h2{
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 .content-heading h3{
-  font-size: 1.5vw;
+  font-size: 3.5vw;
 }
 
 .content-heading i{
-  font-size: 1.2vw;
+  font-size: 3.5vw;
   font-weight: 400;
   color: #0c092d;
 }
@@ -408,6 +408,8 @@ body, html {
 
   .certificate-preview {
     margin-top: 40px;
+    width: 200px;
+    height: 100%;
   }
 
   header .burger {
