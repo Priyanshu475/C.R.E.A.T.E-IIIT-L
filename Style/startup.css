@@ -67,16 +67,25 @@ body, html {
   font-size: 1rem;
 }
 
-.content-heading{
-  color: #e85b24;
-  margin-bottom: 20px;
-  font-weight: 900;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+.content-heading h1{
+  font-size: 4vw;
+}
+
+.content-heading h2{
+  font-size: 3vw;
+}
+
+.content-heading h3{
+  font-size: 2vw;
 }
 
 .content-heading i{
-  color: #e85b24;
   font-size: 2vw;
+  font-weight: 200;
+}
+
+.content-heading {
+  color: #e85b24;
   margin-bottom: 20px;
   font-weight: 900;
   font-family:Verdana, Geneva, Tahoma, sans-serif
